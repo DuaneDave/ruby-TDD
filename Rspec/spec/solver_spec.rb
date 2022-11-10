@@ -13,7 +13,7 @@ describe Solver do
   end
 
   context 'When testing the Solver class' do
-    it 'should return a reversed string passed to the reverse method e.g. "hello" should return "olleh" of class Solver' do
+    it 'should return a reversed string passed to the reverse method of class Solver' do
       solver = Solver.new
       expect(solver.reverse('hello')).to eq 'olleh'
       expect(solver.reverse('william')).to eq 'mailliw'
